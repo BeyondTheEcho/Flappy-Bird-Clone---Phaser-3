@@ -49,7 +49,7 @@ class PlayScene extends Phaser.Scene
   createBird()
   {
     this.bird = this.physics.add.sprite(this.config.startPosition.x, this.config.startPosition.y, 'bird').setOrigin(0);
-    this.bird.body.gravity.y = 400;
+    this.bird.body.gravity.y = 500;
     this.bird.setCollideWorldBounds(true);
   }
 
